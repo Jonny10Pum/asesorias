@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title >Evaluacion</title>
+    <title >Personal</title>
     </head>
     <body>
     <div><h1> <center>Registrar Personal</center></h1></div>

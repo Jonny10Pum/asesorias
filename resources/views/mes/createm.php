@@ -9,9 +9,9 @@
     <h2 center>Registrar</h2>
     </div>
      <div center>
-    <label for="nom">id_mes</label>
+    <label for="id_mes">Numero mes</label>
     <input type="text" name="id_mes" id="id_mes" /><br>
-    <label for="nom">Mes</label>
+    <label for="mes">Mes</label>
     <input type="text" name="mes" id="mes" /><br>
      <button style="background color:blue;">Registrar</button>
     </div>
