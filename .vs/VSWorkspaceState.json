@@ -4,14 +4,13 @@
     "\\app",
     "\\app\\Http",
     "\\app\\Http\\Controllers",
-    "\\public",
+    "\\database",
+    "\\database\\migrations",
     "\\resources",
     "\\resources\\views",
-    "\\resources\\views\\carreras",
     "\\resources\\views\\mes",
-    "\\resources\\views\\periodo",
-    "\\routes"
+    "\\resources\\views\\periodo"
   ],
-  "SelectedNode": "\\resources\\views\\create.php",
+  "SelectedNode": "\\database\\migrations\\2022_01_16_092000_create_personal_table.php",
   "PreviewInSolutionExplorer": false
 }

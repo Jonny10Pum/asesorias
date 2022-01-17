@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMesesTable extends Migration
+class CreateCoordinadoresTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateMesesTable extends Migration
      */
     public function up()
     {
-        Schema::create('meses', function (Blueprint $table) {
-            $table->id('id_mes', 10);
-            $table->string('mes', 20);
+        Schema::create('coordinadores', function (Blueprint $table) {
+            $table->increments('id_coordinador');
+            $table->integer('id_personal');
+            $table->integer('id_tutor');
             $table->timestamps();
         });
     }
@@ -27,6 +28,6 @@ class CreateMesesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('meses');
+        Schema::dropIfExists('coordinadores');
     }
 }

@@ -12,7 +12,7 @@
     <label for="id_mes">Numero mes</label>
     <input type="text" name="id_mes" id="id_mes" /><br>
     <label for="mes">Mes</label>
-    <input type="text" name="mes" id="mes" /><br>
+    <input type="text" name="mes" id="mes"p /><br>
      <button style="background color:blue;">Registrar</button>
     </div>
     </body>

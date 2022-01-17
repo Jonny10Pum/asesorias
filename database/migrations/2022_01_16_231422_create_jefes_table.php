@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMesesTable extends Migration
+class CreateJefesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateMesesTable extends Migration
      */
     public function up()
     {
-        Schema::create('meses', function (Blueprint $table) {
-            $table->id('id_mes', 10);
-            $table->string('mes', 20);
+        Schema::create('jefes', function (Blueprint $table) {
+            $table->increments('id_jefe');
+            $table->integer('id_personal');
             $table->timestamps();
         });
     }
@@ -27,6 +27,6 @@ class CreateMesesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('meses');
+        Schema::dropIfExists('jefes');
     }
 }

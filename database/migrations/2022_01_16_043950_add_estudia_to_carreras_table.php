@@ -15,6 +15,8 @@ class AddEstudiaToCarrerasTable extends Migration
     {
         Schema::table('carreras', function (Blueprint $table) {
             //
+            
+
         });
     }
 
@@ -27,6 +29,7 @@ class AddEstudiaToCarrerasTable extends Migration
     {
         Schema::table('carreras', function (Blueprint $table) {
             //
+            
         });
     }
 }

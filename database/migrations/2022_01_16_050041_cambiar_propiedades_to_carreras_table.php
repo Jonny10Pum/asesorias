@@ -16,6 +16,7 @@ class CambiarPropiedadesToCarrerasTable extends Migration
         Schema::table('carreras', function (Blueprint $table) {
             //
             $table->string('carrera', 50)->change();
+            
 
         });
     }
@@ -29,7 +30,7 @@ class CambiarPropiedadesToCarrerasTable extends Migration
     {
         Schema::table('carreras', function (Blueprint $table) {
             //
-            $table->string('carrera', 50)->change();
+            $table->string('carrera', 150)->change();
 
         });
     }
